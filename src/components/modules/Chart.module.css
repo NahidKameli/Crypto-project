@@ -1,0 +1,98 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px);
+}
+.container{
+    position: relative;
+}
+
+.close{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #81405a;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: -15%;
+    left: -36%;
+}
+
+.chart{
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(47, 47, 63);
+    margin-top: 50px;
+    border: 2px solid #6a344a;
+    border-radius: 20px;
+}
+
+.graph{
+    width: 760px;
+    height: 300px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.name img{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.name p{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.types{
+    margin-top: 30px;
+}
+
+.types button{
+    margin: 10px 20px;
+    background-color: rgb(47, 47, 63);
+    border: 1px solid #a94d72;
+    color: #a94d72;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.types .selected{
+    background-color: #a94d72;
+    color: white;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.details div{
+    display: flex;
+}
+
+.details p{
+    margin-right: 10px;
+    color: #a94d72;
+    font-weight: bold;
+}
