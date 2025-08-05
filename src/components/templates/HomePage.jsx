@@ -15,6 +15,7 @@ function HomePage() {
     const [page, setPage] = useState(1);
     const [Currency, setCurrency] = useState("usd");
     const [chart, setChart] = useState(null);
+    
 
     useEffect(() => {
 
@@ -34,13 +35,14 @@ function HomePage() {
 
     }, [page, Currency]);
 
+    
 
     return (
 
         <div>
             <NavBar />
             <Search Currency={Currency} setCurrency={setCurrency} />
-            <TableCoin coins={coins} isLoading={isLoading} setChart={setChart}/>
+            <TableCoin key={Currency} coins={coins} isLoading={isLoading} Currency={Currency} setChart={setChart}/>
             <Pagination page={page} setPage={setPage} />
             <Footer/>
             {

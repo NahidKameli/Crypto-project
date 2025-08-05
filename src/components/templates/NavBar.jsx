@@ -1,14 +1,15 @@
-import React from 'react'
+import React from 'react';
+import styles from './NavBar.module.css';
 
 function NavBar() {
     return (
-        <nav style={{padding:"10px", marginTop:"2%", marginBottom:"10%"}}>
-            <ul style={{listStyle:"none", display:"flex", justifyContent:"space-evenly", fontWeight:"600"}}>
-                <li><a style={{color:"#a94d72", textDecoration:"none"}} href="/">Home</a></li>
-                <li><a style={{color:"#a94d72", textDecoration:"none"}} href="/">Send Money</a></li>
-                <li><a style={{color:"#a94d72", textDecoration:"none"}} href="/about">Tools</a></li>
-                <li><a style={{color:"#a94d72", textDecoration:"none"}} href="/about">About</a></li>
-                <li><a style={{color:"#a94d72", textDecoration:"none"}} href="/contact">Contact</a></li>
+        <nav className={styles.navbar}>
+            <ul className={styles.navList}>
+                <li><a className={styles.navLink} href="/">Home</a></li>
+                <li><a className={styles.navLink} href="/">Send Money</a></li>
+                <li><a className={styles.navLink} href="/about">Tools</a></li>
+                <li><a className={styles.navLink} href="/about">About</a></li>
+                <li><a className={styles.navLink} href="/contact">Contact</a></li>
             </ul>
         </nav>
     )

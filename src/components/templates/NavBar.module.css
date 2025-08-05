@@ -1,0 +1,27 @@
+.navbar {
+  padding: 10px;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.navLink {
+  color: #a94d72;
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.navLink:hover {
+  background: #a94d72;
+  color: #fff;
+}

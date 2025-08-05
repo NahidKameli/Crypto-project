@@ -3,7 +3,9 @@ import HomePage from "./components/templates/HomePage"
 function App() {
 
   return (
-    <HomePage/>
+    <div>
+      <HomePage/>
+    </div>
   )
 }
 

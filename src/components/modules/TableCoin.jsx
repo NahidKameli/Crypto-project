@@ -36,9 +36,11 @@ export default TableCoin
 const TableRow=({ coin, Currency, setChart})=> {
 
   const { id, image, name, symbol, current_price, total_volume, price_change_percentage_24h: price_change} = coin;
-  
-  const currencySymbol = Currency === "usd" ? "$" : Currency === "eur" ? "€" : Currency === "jpy" ? "¥" : null;
 
+  const currencySymbol =
+  Currency === "usd" ? "$" :
+  Currency === "eur" ? "€" :
+  Currency === "jpy" ? "¥" : null;
   const showHandler=async ()=>{
     try {
       const res = await fetch(marketChart(id));
@@ -52,7 +54,6 @@ const TableRow=({ coin, Currency, setChart})=> {
   }
 
   return (
-
     <tr>
       <td>
         <div className={styles.symbol} onClick={showHandler}>

@@ -1,3 +1,28 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.pageNumbers {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.topIcon {
+  margin-right: -95%;
+  font-size: 1.7rem;
+  color: #a94d72;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.topIcon:hover {
+  color: #81405a;
+}
+
 .pagination{
     width: 400px;
     display: flex;
