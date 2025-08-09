@@ -23,29 +23,15 @@ Crypto Project is a React-based application designed to help users explore crypt
 - Open-source and open for contributions to enhance features and functionality.
 
 ## Features
-- 📊 Real-time cryptocurrency price tracking using external APIs.
-- 💻 Responsive and modern UI built with React.
-- ⚡ Fast development and build process with Vite.
-- 🔍 Search and filter cryptocurrencies (if implemented).
-- ⭐ User-friendly interface for crypto enthusiasts and developers.
+- Search for cryptocurrencies and view summary info
+- View price chart and detailed info for each coin
+- Coin list table with currency switch (USD, EUR, JPY)
+- Pagination and scroll-to-top icon
+- Modern, responsive UI
 
-## Technologies Used
-- **React**: ^18.x.x for building the user interface.
-- **Vite**: ^5.x.x for fast development and bundling.
-- **JavaScript**: Primary language for logic and API integration.
-- **CSS**: Styling the application (25.2% of the codebase).
-- **ESLint**: For maintaining code quality.
-- **External APIs**: For fetching real-time cryptocurrency data (e.g., CoinGecko, CoinMarketCap, or similar).
-- **Git & GitHub**: Version control and repository hosting.
+## Getting Started
 
-## API Integration
-This project integrates with a cryptocurrency API (e.g., [CoinGecko API](https://www.coingecko.com/en/api) or [CoinMarketCap API](https://coinmarketcap.com/api/)) to fetch real-time data such as:
-- Current prices of cryptocurrencies.
-- Market capitalization and trading volume.
-- Historical price trends (if implemented).
-
-To use the API:
-1. Sign up for an API key from the provider (if required).
-2. Create a `.env` file in the root directory and add your API key:
-   ```env
-   VITE_API_KEY=your-api-key-here
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/USERNAME/REPO_NAME.git
+   cd REPO_NAME
