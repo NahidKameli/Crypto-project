@@ -35,10 +35,3 @@ Explore the Pastry Project through these snapshots:
 | Homepage | Market Trends | Coin Details |
 |----------|--------------|------------|
 | <img src="./screenshots/screenshot1.png" alt="Homepage" width="300"/>| <img src="./screenshots/screenshot2.png" alt="Market Trends" width="300"/> | <img src="./screenshots/screenshot3.png" alt="Coin Details" width="300"/> |
-
-## Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/USERNAME/REPO_NAME.git
-   cd REPO_NAME
