@@ -29,6 +29,13 @@ Crypto Project is a React-based application designed to help users explore crypt
 - Pagination and scroll-to-top icon
 - Modern, responsive UI
 
+## Screenshots
+Explore the Pastry Project through these snapshots:
+
+| Homepage | Market Trends | Coin Details |
+|----------|--------------|------------|
+| <img src="./screenshots/screenshot1.png" alt="Homepage" width="300"/>| <img src="./screenshots/screenshot2.png" alt="Market Trends" width="300"/> | <img src="./screenshots/screenshot3.png" alt="Coin Details" width="300"/> |
+
 ## Getting Started
 
 1. Clone the repository:
